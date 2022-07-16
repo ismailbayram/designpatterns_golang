@@ -10,6 +10,7 @@ import (
 	"design_patterns/factory"
 	"design_patterns/mediator"
 	"design_patterns/observer"
+	"design_patterns/state"
 	"fmt"
 )
 
@@ -31,5 +32,7 @@ func main() {
 	mediator.RunMediator()
 	fmt.Println("********************************************")
 	observer.RunObserver()
+	fmt.Println("********************************************")
+	state.RunState()
 	fmt.Println("********************************************")
 }
